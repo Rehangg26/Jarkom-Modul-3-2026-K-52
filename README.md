@@ -28,3 +28,8 @@
 | 18 | Mengalihkan API ke kirara ketika kedua worker utama gagal. |
 | 19 | Menguji cache web dan pembatasan request API. |
 | 20 | Mengukur kinerja layanan dan membedakan penyebab request gagal. |
+
+
+1. Ketika Curtain menutup Shibuya, jalur komunikasi antar zona Jujutsu High terputus. Pulihkan konektivitas dasar dengan mengonfigurasi jichi: eth0 memperoleh WAN dari NAT, sedangkan eth1–eth4 menjadi gateway Network 1–4 sesuai tabel pemetaan. Aktifkan IPv4 forwarding dan source NAT, lalu tetapkan IP statis host infrastruktur sesuai tabel spesifikasi. Buktikan konektivitas setiap host ke gateway dan akses eksternal dari host yang relevan.
+
+   <img width="777" height="137" alt="Screenshot 2026-10-12 191715" src="https://github.com/user-attachments/assets/dfeb44c4-5c5c-4475-a557-7621549d4c5f" />

@@ -1,3 +1,4 @@
+#di tengan lakukan ini:
 cat > /etc/dhcp/dhcpd.conf <<'EOF'
 default-lease-time 600;
 max-lease-time 7200;

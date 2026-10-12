@@ -71,3 +71,6 @@ EOF
 dhcpd -t -cf /etc/dhcp/dhcpd.conf
 #restart
 service isc-dhcp-server restart
+
+#cek di Net3 (ino, kusakabe, miwa):
+udhcpc -i eth0

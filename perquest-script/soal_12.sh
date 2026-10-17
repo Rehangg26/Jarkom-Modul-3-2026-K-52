@@ -1,5 +1,5 @@
-//ASUMSI IP (sesuaikan dengan tabel spesifikasi, find&replace kalau beda):
-# gojo 192.237.1.10  (DMZ / Net1)
+//IP 
+# gojo 192.237.1.10  
 # Net4: tengen .10, yaga .11, inumaki .12, maki .13, panda .14,
 #       nanami .15, todo .16, kirara .17, geto .18
 # Zona reverse = 1.237.192.in-addr.arpa (karena gojo di 192.237.1.x)
